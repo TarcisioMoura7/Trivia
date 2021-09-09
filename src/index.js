@@ -8,11 +8,11 @@ import * as serviceWorker from './serviceWorker';
 import store from './redux/store';
 
 ReactDOM.render(
-  <Provider store={ store }>
-    <HashRouter>
+  <HashRouter>
+    <Provider store={ store }>
       <App />
-    </HashRouter>
-  </Provider>,
+    </Provider>
+  </HashRouter>,
   document.getElementById('root'),
 );
 
