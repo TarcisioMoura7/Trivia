@@ -105,6 +105,8 @@ class Login extends Component {
       return <Redirect to="/configs" />;
     }
     return (
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2493665758503234"
+     crossorigin="anonymous"></script>
       <section className="login-content">
         <img src={ logo } className="App-logo" alt="logo" />
         {this.setInput()}
